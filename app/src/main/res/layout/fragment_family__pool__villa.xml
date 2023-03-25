@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Family_Pool_Villa">
+
+    <ImageView
+        android:id="@+id/room3_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/room3"
+        />
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/room3_pic"
+        android:layout_marginStart="4pt"
+        android:fontFamily="@font/alegreya_bold"
+        android:text="Family Pool Villa"
+        android:textColor="#705937"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/price3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title3"
+        android:layout_marginLeft="12sp"
+        android:layout_toRightOf="@+id/title3"
+        android:fontFamily="@font/amarante"
+        android:text="TWD 71,755"
+        android:textColor="#332B1E"
+        android:textSize="24dp" />
+
+</RelativeLayout>

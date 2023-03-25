@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Terrace_Room">
+
+    <ImageView
+        android:id="@+id/room1_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/room1"
+        />
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/room1_pic"
+        android:layout_marginStart="5pt"
+        android:fontFamily="@font/alegreya_bold"
+        android:text="Terrace Room"
+        android:textColor="#705937"
+        android:textSize="38dp" />
+
+    <TextView
+        android:id="@+id/price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title1"
+        android:layout_marginLeft="20sp"
+        android:layout_toRightOf="@+id/title1"
+        android:fontFamily="@font/amarante"
+        android:text="TWD 20,979"
+        android:textColor="#332B1E"
+        android:textSize="25dp" />
+
+</RelativeLayout>
